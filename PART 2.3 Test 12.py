@@ -15,8 +15,8 @@ try:
     confirm = browser.switch_to.alert
     confirm.accept()
 
-    chislo = browser.find_element(By.ID, value='input_value')
-    x = chislo.text
+    number = browser.find_element(By.ID, value='input_value')
+    x = number.text
     y = calc(x)
 
     answer = browser.find_element(By.ID, value='answer')
