@@ -25,6 +25,6 @@ try:
     submit = browser.find_element(By.CLASS_NAME, value='btn.btn-primary')
     submit.click()
 finally:
-    time.sleep(10)
+
     browser.quit()
 
